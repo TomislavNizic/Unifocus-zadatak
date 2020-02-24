@@ -12,13 +12,15 @@
    ukoliko preglednik automatski ne otvori stranicu.
 
 ~ Napomena o aplikaciji
-Aplikacija trenutno zadovoljava 3 od 6 zadanih funkcionalnosti :
+Aplikacija trenutno zadovoljava zadane funkcionalnosti :
       - 2 stranice (rute) - "Table View" i "Chart View" uz react routing metodu
       - import podataka u tablicu sa mocky.io predloženog linka
       - Kreirane komponente statefull (TableView) te spojena na state, te stateless komponenta (Country) 
         koja sadrži tablicu i css styling
-Redux store mi je trenutno još uvijek svjež i zahtjevan koncept za implementaciju, ali svakako ću nastaviti
-raditi na ovome zadatku dok ne ostvarim sve zadane kriterije te kompletno povežem sve funkcionalnosti.
+      - Kreirana forma za unos novih podataka u tablicu, te submit button koji podatke pohranjuje u state
+      - Input polja population i size smiju primati samo brojcane vrijednosti
+      - Chart view prikazuje iste podatke kao sto su u tablici
+
 
 ~ Korišteni software i paketi pri izradi aplikacije : 
 - Node Js. : https://nodejs.org/en/
@@ -29,6 +31,5 @@ raditi na ovome zadatku dok ne ostvarim sve zadane kriterije te kompletno povež
 - Redux-Adapter (npm install --save redux-adapter)
 - React-redux (npm install --save react-redux)
 - Redux Thunk (npm install --save redux-thunk)
-- Redux Form (npm install --save redux-form) (https://redux-form.com/8.3.0/)
 - Redux DevTools (https://github.com/zalmoxisus/redux-devtools-extension#usage)
 - Victory chart library (npm install --save victory)
